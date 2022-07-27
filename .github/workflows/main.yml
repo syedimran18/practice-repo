@@ -7,7 +7,8 @@ on:
 jobs:  
   deploy:
     runs-on: self-hosted
-    
+     
+       working-directory:C:\actions-runner\_work\practice-repo\practice-repo
     steps:      
       - name: Checkout
         uses: actions/checkout@v2
