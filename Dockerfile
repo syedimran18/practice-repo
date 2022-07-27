@@ -2,7 +2,7 @@ name: .Net CI/CD with github actions
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 jobs:  
   deploy:
