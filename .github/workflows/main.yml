@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: Build the Docker image
+      - name: Build the Docker imagec
         run: docker build -t dotnetimage:latest .
       
       - name: Build a Docker Container with exiting image
