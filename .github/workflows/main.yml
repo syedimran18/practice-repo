@@ -15,7 +15,7 @@ jobs:
       - name: Build the Docker imagec
         run:  | 
           docker build -t dotnetimage:latest .
-           working-directory:C:\actions-runner\_work\practice-repo\practice-repo
+           working-directory: C:\actions-runner\_work\practice-repo\practice-repo
       
       - name: Build a Docker Container with exiting image
         run: docker run -d -dotnetcontainer -p 80:80 dotnetimage:latest 
